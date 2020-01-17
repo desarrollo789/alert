@@ -12,10 +12,6 @@ const routes: Routes = [
     path: 'ioni-antion-sheet',
     loadChildren: () => import('./ioni-antion-sheet/ioni-antion-sheet.module').then( m => m.IoniAntionSheetPageModule)
   },
-  {
-    path: 'ion-action-sheet-controller',
-    loadChildren: () => import('./ion-action-sheet-controller/ion-action-sheet-controller.module').then( m => m.IonActionSheetControllerPageModule)
-  },
 ];
 
 @NgModule({
